@@ -16,7 +16,7 @@
             <thead>
             <th>Name </th>
             <th>Publication </th>
-            <th class="text-right"> </th>
+            <th class="text-right">ghprplhm </th>
 
             </thead>
             <tbody>
@@ -24,9 +24,7 @@
                 <tr>
                     <td>{{$category->title}}</td>
                     <td>{{$category->published}}</td>
-                        <a href="{{route('admin.category.edit', ['id'=>$category->id ])}}"><i class="fa fa-edit"></i></a>
-                    <td>
-                    </td>
+                    <td> <a href="{{route('admin.category.edit', $category )}}"><i class="glyphicon-edit"></i></a></td>
 
                 </tr>
                 @empty
