@@ -1,0 +1,81 @@
+    1  ls
+    2  cd code/
+    3  ls
+    4  exit
+    5  mysql -u root -p
+    6  sudo apt-get instal mysql-server
+    7  sudo apt-get instal php  mysql-server
+    8  sudo apt-get install php  mysql-server
+    9  php -v
+   10  mysql -v
+   11  mysql -u root -p
+   12  mysql -u laravel -p
+   13  mysql
+   14  php artisan config:cache 
+   15  php artisan migrate
+   16  ls
+   17  cd code
+   18  ls
+   19  php artisan migrate
+   20  mysql
+   21  php artisan config:cache 
+   22  adminer
+   23  cd adminer
+   24  ls
+   25  mysql
+   26  cd
+   27  cd code
+   28  php artisan serve
+   29  git push -u origin master
+   30  cd
+   31  git push -u origin master
+   32  cd code
+   33  php artisan serve
+   34* 
+   35  php artisan start
+   36  php artisan restart
+   37  php artisan 
+   38  php artisan up
+   39  php artisan make:controller Admin/DashboardController
+   40  php artisan make:model Category -m
+   41  php artisan make:controller Admin/CategoryController --resource --model
+   42  php artisan make:controller Admin/CategoryController --resource --model=Category
+   43  php artisan migrate
+   44  php artisan make:controller Admin/CategoryController --resource --model=Category
+   45  php artisan migrate
+   46  ьныйд
+   47  mysql
+   48  php artisan routes:list
+   49  php artisan route:list
+   50  php artisan migrate
+   51  mysql
+   52  php artisan migrate
+   53  artisan route:list
+   54  php artisan tinker
+   55  php artisan migrate
+   56  ifconfig 
+   57  help
+   58  linux --v
+   59  linux -v
+   60  --v
+   61  -v
+   62  lsb_release -a
+   63  cd
+   64  curl -sl https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh
+   65  sudo bash nodesource_setup.sh
+   66  curl -sl https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh
+   67  sudo apt-get install -y nodejs
+   68  sudo apt-get build-essential
+   69  sudo apt-get install build-essential
+   70  nodejs -v
+   71  npm -v
+   72  yarn -v
+   73  composer require unisharp/laravel-ckeditor
+   74  php artisan vendor:publish --tag=ckeditor
+   75  php artisan config:cache
+   76  php artisan
+   77  ifconfig
+   78  php artisan migrate
+   79  cd code/
+   80  php artisan migrate
+   81  history > history_for_print2.txt

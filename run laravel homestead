@@ -1,0 +1,19 @@
+composer create-project --prefer-dist laravel/laravel revalTest
+cd revalTest
+composer require laravel/Homestead --dev
+vendor/bin/homestead make
+
+ssh-keygen -t rsa -C "YZWL92@gmail.com"
+
+vagrant up
+
+
+
+
+
+
+php artisan serve
+
+vagrant@revaltest:~/code$ php artisan make: auth
+vagrant@revaltest:~$ cd code
+
