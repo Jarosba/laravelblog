@@ -20,9 +20,13 @@ class Article extends Model
     public function setSlugAttribute($value){
         $this->attributes['slug']=Str::slug(mb_substr($this->title,0,40).".".\Carbon\Carbon::now()->format('dmyHi'),'-');
 
-
     }
 
+
+    public function scopeLastArticles($query,$count)
+    {
+        return $query->orderBy('created_at','desc')->take($count)->get();
+    }
 
 
 }
