@@ -14,8 +14,7 @@
 
 <label for="">Slug (Unique value)</label>
 
-<input class="form-control" type="text" name="slug" placeholder="Automatic generation"
-       value="{{$article->slug or ""}}" readonly="">
+<input class="form-control" type="text" name="slug" placeholder="Automatic generation"   value="{{$article->slug or ""}}" readonly="">
 
 <label for="">Parent category</label>
 <select class="form-control" name="categories[]" multiple="">
@@ -33,7 +32,7 @@
 
 <hr />
 <label for="">meta_title</label>
-<textarea class="form-control" id="meta_title" name="meta_title">{{$article->meta_title or ""}}</textarea>
+<textarea class="form-control" id="meta_title" name="meta_title">{{$article->meta or ""}}</textarea>
 
 <label for="">meta_description</label>
 <textarea class="form-control" id="meta_description" name="meta_description">{{$article->meta_description or ""}}</textarea>

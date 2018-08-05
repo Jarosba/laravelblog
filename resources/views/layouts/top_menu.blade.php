@@ -1,6 +1,6 @@
     @foreach($categories as $category)
 
-        @if ($category->children->where('published')->count())
+        @if ($category->children->where('published',1)->count())
             <li class="dropdown">
                 <a href="{{url('/blog/category/$category->slug')}}" class="dropdown-toggle"
                 data-toggle="dropdown" role="button" aria-expanded="false">
@@ -17,7 +17,7 @@
         @else
 
             <li >
-                <a href="{{url('/blog/category/$category->slug')}}" class="dropdown-toggle"> {{$category->title}}
+                <a href="{{url("/blog/category/$category->slug")}}" class="dropdown-toggle"> {{$category->title}}
 
                 </a>  </li>
         @endif

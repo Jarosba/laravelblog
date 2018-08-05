@@ -39,12 +39,28 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
+                <li>
+
+                    <a href="{{route('admin.index')}}">States Panel</a>
+
+                </li>
                     &nbsp;<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog</a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="{{route('admin.category.index')}}">Categories</a></li>
-                            <li><a href="{{route('admin.article.index')}}">Materials</a></li>
+                            <li><a href="{{route('admin.article.index')}}">Articles</a></li>
                         </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Users Management</a>
+                        <ul class="dropdown-menu" role="menu">
+
+                            <li><a href="{{route('admin.user_managment.user.index')}}">Users</a></li>
+
+                        </ul>
+                    </li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->

@@ -12,7 +12,7 @@
         @endcomponent
 
         <hr/>
-        <form  class="form-horizontal" action="{{route('admin.category.update',$article)}}" method="post">
+        <form  class="form-horizontal" action="{{route('admin.article.update',$article)}}" method="post">
             <input type="hidden" name="_method" value="put" >
             {{csrf_field()}}
 
@@ -21,7 +21,7 @@
             {{--- Form include ---}}
 
             @include("admin.articles.partials.form")
-            <input type="hidden" name="modified_by" value='{{Auth::id()}}'>
+            <input type="hidden" name="modified_by" value="{{Auth::id()}}">
         </form>
 
 
